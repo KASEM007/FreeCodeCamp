@@ -1,0 +1,110 @@
+html {
+    height:100%;
+    
+    
+}
+
+
+body {
+    
+    background-image: url(images/background_image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: 0.6;
+    filter:alpha(opacity=60); */
+    
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width:1024px;
+    
+}
+
+
+header {
+    /* background-color: blue; */
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(111, 1, 1, 0.845);
+    /* height:40px; */
+    width:1024px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+
+main {
+    background-color: rgba(38, 37, 36, 0.632);
+    height:400px;
+    /* width:124px; */
+    text-align:center;
+    /* margin-top: 80px; */
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+    /* opacity: 0.6;
+    filter:alpha(opacity=60); */
+    
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left:30px;
+    padding-right:30px;
+}
+/* or I can creat class to each a tag and do: */
+/* .no_underline {
+    text-decoration: none;
+} */
+
+.maps {
+    padding-bottom: 50px;
+
+}
+
+footer {
+    background-color: rgba(69, 1, 1, 0.79);
+    /* height:100px; */
+    width:1024px;
+    
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.817);
+
+}
