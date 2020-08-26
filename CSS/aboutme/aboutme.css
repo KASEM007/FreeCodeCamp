@@ -1,10 +1,19 @@
 h1{
     color:rgba(0, 200, 100, 0.6);
+    border-color: darkorange;
+    border-width: 5px;
+    border-style: solid;
 }
 h4{
-    color:rgba(0, 200, 100, 1);
-    background:whitesmoke
+    color:white;
+    background:orangered;
+    border: 8px dashed darkturquoise;
 }
 body{
     background: darkslategrey;
+}
+#special{ 
+    color:white;
+    background-color: green;
+
 }
