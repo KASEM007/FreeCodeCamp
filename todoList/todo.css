@@ -1,3 +1,12 @@
-body{
-    background: green
+li{
+    border: 2px solid green;
+}
+
+#Studying{
+    color: yellow;
+    background-color: indianred;
+}
+
+.completed{
+    text-decoration: line-through;
 }
