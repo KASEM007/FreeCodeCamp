@@ -1,18 +1,48 @@
 body{
-    width: 800px;
-    border: 6px solid #bdc3c7;
-    margin: auto;
+    max-width: 700px;
+    width: 80%;
+    border: 20px solid #bdc3c7;
+    margin: 20px auto;
+    padding: 20px;
+
+    
+}
+
+.first_para{
+    border-left: 5px solid#bdc3c7;
+    padding-left: 5px;
 }
 
 p{
     border: 3px;
-    margin: 3, 3, 3, 3;
+    margin: 6, 6, 6, 6;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2{
     color: #2c3e50;
 }
-
-h4{
+/* dates */
+.date{
     color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
 }
+
+/* Gradient transparent - color - transparent */
+
+hr.style-six {
+
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Inset, by Dan Eden */
+
+/* hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+} */
