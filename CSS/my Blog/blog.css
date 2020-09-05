@@ -1,9 +1,11 @@
 body{
-    max-width: 700px;
+    max-width: 800px;
     width: 80%;
     border: 20px solid #bdc3c7;
     margin: 20px auto;
     padding: 20px;
+    font-family: 'Source Sans Pro';
+
 
     
 }
@@ -26,7 +28,7 @@ h2{
 .date{
     color: #3498db;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.4rem;
 }
 
 /* Gradient transparent - color - transparent */
