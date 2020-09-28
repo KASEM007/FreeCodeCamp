@@ -5,7 +5,8 @@ body {
 
 #mainNavbar .navbar-brand{
     color: #EA1c2c;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 1.5rem;
 
 }
 #mainNavbar .nav-link{
