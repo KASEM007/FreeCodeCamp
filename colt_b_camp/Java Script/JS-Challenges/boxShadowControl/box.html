@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box Shadow</title>
+    <link rel="stylesheet" href="box.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Box Shadow Control</h1>
+        <div class="box"></div>
+        <div class="code">box-shadow: 
+            <input type="text" class="i" value="5"/>px 
+            <input type="text" class="i" value="5"/>px 
+            <input type="text" class="i" value="5"/>px  
+            <input type="text" class="i" value="0"/>px  
+            <input type="text" class="i" value="555"/>
+        </div>
+        
+        <div class="pb">
+            <label>x: </label>
+            <input type="range" class="slider" min="-50" max="50" value="5" />
+        </div>
+        <div class="pb">
+            <label>y: </label>
+            <input type="range" class="slider" min="-50" max="50" value="5" />
+        </div>
+        <div class="pb">
+            <label>blur: </label>
+            <input type="range" class="slider" min="0" max="50" value="5" />
+        </div>            
+        <div class="pb">
+            <label>spread: </label>
+            <input type="range" class="slider" min="-50" max="50" value="0" />
+        </div>
+    </div>
+    <script src="box.js"></script>
+</body>
+</html>

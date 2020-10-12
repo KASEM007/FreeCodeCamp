@@ -1,0 +1,50 @@
+body {
+    background: #000010 url(https://dl.dropbox.com/s/3hsz7r8qfv5xo6m/stars.png?dl=0) repeat top center;
+    z-index: 0;
+}
+
+.container {
+    top: 25%;
+    right: 30%;
+}
+
+.ClassB {
+    margin: 200px 0 0 275px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 10px 4px #ffffff, inset 1px 1px 8px 7px #3176bb, 0 0 35px 10px #3176ab, 0 0 20px 20px #ffffff, 0 0 800px 40px #ffffff;
+}
+
+.Kepler10b {
+    margin: -230px 0 0 70px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: inset 2px 2px 6px 1px #8B4513, inset 5px 5px 20px 1px purple, inset 5px 5px 10px 5px orange, inset -6px -10px 10px 10px yellow, 0 0 7px purple;
+}
+
+.Kepler283c {
+    margin: 290px 0 0 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: -moz-linear-gradient(215deg, #c8c8c8, #181818 70%);
+    background: -webkit-linear-gradient(215deg, #c8c8c8, #181818 70%);
+    background: -ms-linear-gradient(215deg, #c8c8c8, #181818 70%);
+    box-shadow: -25px 21px 20px #181818;
+}
+
+.Kepler22b {
+    margin: 100px 0px 0px 0px;
+    width: ;
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}

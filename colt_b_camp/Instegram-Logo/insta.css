@@ -1,0 +1,46 @@
+body {
+    position: fixed;
+    background-image: url("https://images.template.net/wp-content/uploads/2015/08/Extravagent-Space-Background-Premium-Download.png");
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: white;
+    position: fixed;
+    left: 25%;
+    top: 30%;
+}
+
+.Z {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    height: 250px;
+    width: 250px;
+    border-radius: 60px;
+    border: 15px solid white;
+    background: linear-gradient(45deg, yellow, red, #990099, #990099);
+}
+
+#A {
+    position: absolute;
+    left: 33px;
+    top: 33px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    border: 18px solid white;
+}
+
+#B {
+    position: absolute;
+    left: 67px;
+    top: 67px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 18px solid white;
+}
